@@ -90,7 +90,10 @@ ul{
   border: none;
   color: white;
   padding: 9px 18px;
-  font-size: 0.9em;
+  font-size: 1em;
+  text-decoration: none;
+  font-family: 'volteLight';
+  margin-top: 10px;
 }
 
 .button-dark{
@@ -98,7 +101,9 @@ ul{
   border: none;
   color: white;
   padding: 9px 18px;
-  font-size: 0.9em;
+  font-size: 1em;
+  text-decoration: none;
+  font-family: 'volteLight';
 }
 
 // Underline effects from here https://stackoverflow.com/questions/24263283/smaller-underline-effect
@@ -424,6 +429,11 @@ footer{
   
   li{
     margin-bottom: 5px;
+  }
+
+  a{
+    text-decoration: none;
+    color: white;
   }
 }
 
