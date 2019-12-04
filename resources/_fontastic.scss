@@ -1,0 +1,330 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "business-video";
+  src:url("../../fontastic/business-video.eot");
+  src:url("../../fontastic/business-video.eot?#iefix") format("embedded-opentype"),
+    url("../../fontastic/business-video.woff") format("woff"),
+    url("../../fontastic/business-video.ttf") format("truetype"),
+    url("../../fontastic/business-video.svg#business-video") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+[data-icon]:before {
+  font-family: "business-video" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "business-video" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-digitrial-arrow-left:before {
+  content: "\62";
+}
+.icon-digitrial-arrow-right:before {
+  content: "\63";
+}
+.icon-digitrial-arrow-up:before {
+  content: "\64";
+}
+.icon-digitrial-atom:before {
+  content: "\65";
+}
+.icon-digitrial-beaker-2:before {
+  content: "\66";
+}
+.icon-digitrial-beaker-filled:before {
+  content: "\67";
+}
+.icon-digitrial-beaker-outlined:before {
+  content: "\68";
+}
+.icon-digitrial-bell:before {
+  content: "\69";
+}
+.icon-digitrial-bolt:before {
+  content: "\6a";
+}
+.icon-digitrial-book:before {
+  content: "\6b";
+}
+.icon-digitrial-book-2:before {
+  content: "\6c";
+}
+.icon-digitrial-broadcast:before {
+  content: "\6d";
+}
+.icon-digitrial-bubble:before {
+  content: "\6e";
+}
+.icon-digitrial-bubble-atom:before {
+  content: "\6f";
+}
+.icon-digitrial-bubble-dots:before {
+  content: "\70";
+}
+.icon-digitrial-bubble-play:before {
+  content: "\71";
+}
+.icon-digitrial-calendar:before {
+  content: "\72";
+}
+.icon-digitrial-circle-tick:before {
+  content: "\73";
+}
+.icon-digitrial-clock:before {
+  content: "\74";
+}
+.icon-digitrial-cloud:before {
+  content: "\75";
+}
+.icon-digitrial-cloud-download:before {
+  content: "\76";
+}
+.icon-digitrial-cloud-upload:before {
+  content: "\77";
+}
+.icon-digitrial-cross:before {
+  content: "\78";
+}
+.icon-digitrial-doc-csv:before {
+  content: "\79";
+}
+.icon-digitrial-doc-doc:before {
+  content: "\7a";
+}
+.icon-digitrial-doc-pdf:before {
+  content: "\41";
+}
+.icon-digitrial-doc-ppt:before {
+  content: "\42";
+}
+.icon-digitrial-doc-zip:before {
+  content: "\43";
+}
+.icon-digitrial-document:before {
+  content: "\44";
+}
+.icon-digitrial-document-folded:before {
+  content: "\45";
+}
+.icon-digitrial-document-simple:before {
+  content: "\46";
+}
+.icon-digitrial-documents:before {
+  content: "\47";
+}
+.icon-digitrial-droplet:before {
+  content: "\48";
+}
+.icon-digitrial-expand:before {
+  content: "\49";
+}
+.icon-digitrial-explainer-animation:before {
+  content: "\4a";
+}
+.icon-digitrial-eye:before {
+  content: "\4b";
+}
+.icon-digitrial-folder:before {
+  content: "\4c";
+}
+.icon-digitrial-fork:before {
+  content: "\4d";
+}
+.icon-digitrial-graph-1:before {
+  content: "\4e";
+}
+.icon-digitrial-graph-2:before {
+  content: "\4f";
+}
+.icon-digitrial-heart:before {
+  content: "\50";
+}
+.icon-digitrial-hosting:before {
+  content: "\51";
+}
+.icon-digitrial-imac:before {
+  content: "\52";
+}
+.icon-digitrial-infinite:before {
+  content: "\53";
+}
+.icon-digitrial-key:before {
+  content: "\54";
+}
+.icon-digitrial-laptop:before {
+  content: "\55";
+}
+.icon-digitrial-learning:before {
+  content: "\56";
+}
+.icon-digitrial-lightbulb:before {
+  content: "\57";
+}
+.icon-digitrial-list:before {
+  content: "\58";
+}
+.icon-digitrial-lock:before {
+  content: "\59";
+}
+.icon-digitrial-mail:before {
+  content: "\5a";
+}
+.icon-digitrial-map-pin:before {
+  content: "\30";
+}
+.icon-digitrial-mouse:before {
+  content: "\31";
+}
+.icon-digitrial-network:before {
+  content: "\32";
+}
+.icon-digitrial-network-2:before {
+  content: "\33";
+}
+.icon-digitrial-network-3:before {
+  content: "\34";
+}
+.icon-digitrial-offline:before {
+  content: "\35";
+}
+.icon-digitrial-package:before {
+  content: "\36";
+}
+.icon-digitrial-paper-plane:before {
+  content: "\37";
+}
+.icon-digitrial-pencil:before {
+  content: "\38";
+}
+.icon-digitrial-person:before {
+  content: "\39";
+}
+.icon-digitrial-person-add:before {
+  content: "\21";
+}
+.icon-digitrial-phone:before {
+  content: "\22";
+}
+.icon-digitrial-picture:before {
+  content: "\23";
+}
+.icon-digitrial-pie-chart:before {
+  content: "\24";
+}
+.icon-digitrial-pill:before {
+  content: "\25";
+}
+.icon-digitrial-plaster:before {
+  content: "\26";
+}
+.icon-digitrial-play:before {
+  content: "\27";
+}
+.icon-digitrial-plus:before {
+  content: "\28";
+}
+.icon-digitrial-power:before {
+  content: "\29";
+}
+.icon-digitrial-quote-close:before {
+  content: "\2a";
+}
+.icon-digitrial-quote-open:before {
+  content: "\2b";
+}
+.icon-digitrial-radial:before {
+  content: "\2c";
+}
+.icon-digitrial-refresh:before {
+  content: "\2d";
+}
+.icon-digitrial-responsive:before {
+  content: "\2e";
+}
+.icon-digitrial-search-people:before {
+  content: "\3a";
+}
+.icon-digitrial-share:before {
+  content: "\3b";
+}
+.icon-digitrial-sliders:before {
+  content: "\3c";
+}
+.icon-digitrial-sound:before {
+  content: "\3d";
+}
+.icon-digitrial-stephascope:before {
+  content: "\3e";
+}
+.icon-digitrial-stopwatch:before {
+  content: "\3f";
+}
+.icon-digitrial-strand:before {
+  content: "\40";
+}
+.icon-digitrial-tablet:before {
+  content: "\5b";
+}
+.icon-digitrial-testube-filled:before {
+  content: "\5d";
+}
+.icon-digitrial-testube-outline:before {
+  content: "\5e";
+}
+.icon-digitrial-thermometer:before {
+  content: "\5f";
+}
+.icon-digitrial-tick:before {
+  content: "\60";
+}
+.icon-digitrial-tv:before {
+  content: "\7b";
+}
+.icon-digitrial-umbrella:before {
+  content: "\7c";
+}
+.icon-digitrial-venn-diagram:before {
+  content: "\7d";
+}
+.icon-digitrial-versions:before {
+  content: "\7e";
+}
+.icon-digitrial-warning:before {
+  content: "\5c";
+}
+.icon-digitrial-website-dev:before {
+  content: "\e000";
+}
+.icon-strategy:before {
+  content: "\e001";
+}
+.icon-strategy-1:before {
+  content: "\e002";
+}
+.icon-digitrial-arrow-down:before {
+  content: "\61";
+}
+.icon-digitrial-search:before {
+  content: "\2f";
+}

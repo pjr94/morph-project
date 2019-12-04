@@ -1,0 +1,814 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "business-video";
+  src: url("../../fontastic/business-video.eot");
+  src: url("../../fontastic/business-video.eot?#iefix") format("embedded-opentype"), url("../../fontastic/business-video.woff") format("woff"), url("../../fontastic/business-video.ttf") format("truetype"), url("../../fontastic/business-video.svg#business-video") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+[data-icon]:before {
+  font-family: "business-video" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^=icon-]:before,
+[class*=" icon-"]:before {
+  font-family: "business-video" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-digitrial-arrow-left:before {
+  content: "b";
+}
+
+.icon-digitrial-arrow-right:before {
+  content: "c";
+}
+
+.icon-digitrial-arrow-up:before {
+  content: "d";
+}
+
+.icon-digitrial-atom:before {
+  content: "e";
+}
+
+.icon-digitrial-beaker-2:before {
+  content: "f";
+}
+
+.icon-digitrial-beaker-filled:before {
+  content: "g";
+}
+
+.icon-digitrial-beaker-outlined:before {
+  content: "h";
+}
+
+.icon-digitrial-bell:before {
+  content: "i";
+}
+
+.icon-digitrial-bolt:before {
+  content: "j";
+}
+
+.icon-digitrial-book:before {
+  content: "k";
+}
+
+.icon-digitrial-book-2:before {
+  content: "l";
+}
+
+.icon-digitrial-broadcast:before {
+  content: "m";
+}
+
+.icon-digitrial-bubble:before {
+  content: "n";
+}
+
+.icon-digitrial-bubble-atom:before {
+  content: "o";
+}
+
+.icon-digitrial-bubble-dots:before {
+  content: "p";
+}
+
+.icon-digitrial-bubble-play:before {
+  content: "q";
+}
+
+.icon-digitrial-calendar:before {
+  content: "r";
+}
+
+.icon-digitrial-circle-tick:before {
+  content: "s";
+}
+
+.icon-digitrial-clock:before {
+  content: "t";
+}
+
+.icon-digitrial-cloud:before {
+  content: "u";
+}
+
+.icon-digitrial-cloud-download:before {
+  content: "v";
+}
+
+.icon-digitrial-cloud-upload:before {
+  content: "w";
+}
+
+.icon-digitrial-cross:before {
+  content: "x";
+}
+
+.icon-digitrial-doc-csv:before {
+  content: "y";
+}
+
+.icon-digitrial-doc-doc:before {
+  content: "z";
+}
+
+.icon-digitrial-doc-pdf:before {
+  content: "A";
+}
+
+.icon-digitrial-doc-ppt:before {
+  content: "B";
+}
+
+.icon-digitrial-doc-zip:before {
+  content: "C";
+}
+
+.icon-digitrial-document:before {
+  content: "D";
+}
+
+.icon-digitrial-document-folded:before {
+  content: "E";
+}
+
+.icon-digitrial-document-simple:before {
+  content: "F";
+}
+
+.icon-digitrial-documents:before {
+  content: "G";
+}
+
+.icon-digitrial-droplet:before {
+  content: "H";
+}
+
+.icon-digitrial-expand:before {
+  content: "I";
+}
+
+.icon-digitrial-explainer-animation:before {
+  content: "J";
+}
+
+.icon-digitrial-eye:before {
+  content: "K";
+}
+
+.icon-digitrial-folder:before {
+  content: "L";
+}
+
+.icon-digitrial-fork:before {
+  content: "M";
+}
+
+.icon-digitrial-graph-1:before {
+  content: "N";
+}
+
+.icon-digitrial-graph-2:before {
+  content: "O";
+}
+
+.icon-digitrial-heart:before {
+  content: "P";
+}
+
+.icon-digitrial-hosting:before {
+  content: "Q";
+}
+
+.icon-digitrial-imac:before {
+  content: "R";
+}
+
+.icon-digitrial-infinite:before {
+  content: "S";
+}
+
+.icon-digitrial-key:before {
+  content: "T";
+}
+
+.icon-digitrial-laptop:before {
+  content: "U";
+}
+
+.icon-digitrial-learning:before {
+  content: "V";
+}
+
+.icon-digitrial-lightbulb:before {
+  content: "W";
+}
+
+.icon-digitrial-list:before {
+  content: "X";
+}
+
+.icon-digitrial-lock:before {
+  content: "Y";
+}
+
+.icon-digitrial-mail:before {
+  content: "Z";
+}
+
+.icon-digitrial-map-pin:before {
+  content: "0";
+}
+
+.icon-digitrial-mouse:before {
+  content: "1";
+}
+
+.icon-digitrial-network:before {
+  content: "2";
+}
+
+.icon-digitrial-network-2:before {
+  content: "3";
+}
+
+.icon-digitrial-network-3:before {
+  content: "4";
+}
+
+.icon-digitrial-offline:before {
+  content: "5";
+}
+
+.icon-digitrial-package:before {
+  content: "6";
+}
+
+.icon-digitrial-paper-plane:before {
+  content: "7";
+}
+
+.icon-digitrial-pencil:before {
+  content: "8";
+}
+
+.icon-digitrial-person:before {
+  content: "9";
+}
+
+.icon-digitrial-person-add:before {
+  content: "!";
+}
+
+.icon-digitrial-phone:before {
+  content: '"';
+}
+
+.icon-digitrial-picture:before {
+  content: "#";
+}
+
+.icon-digitrial-pie-chart:before {
+  content: "$";
+}
+
+.icon-digitrial-pill:before {
+  content: "%";
+}
+
+.icon-digitrial-plaster:before {
+  content: "&";
+}
+
+.icon-digitrial-play:before {
+  content: "'";
+}
+
+.icon-digitrial-plus:before {
+  content: "(";
+}
+
+.icon-digitrial-power:before {
+  content: ")";
+}
+
+.icon-digitrial-quote-close:before {
+  content: "*";
+}
+
+.icon-digitrial-quote-open:before {
+  content: "+";
+}
+
+.icon-digitrial-radial:before {
+  content: ",";
+}
+
+.icon-digitrial-refresh:before {
+  content: "-";
+}
+
+.icon-digitrial-responsive:before {
+  content: ".";
+}
+
+.icon-digitrial-search-people:before {
+  content: ":";
+}
+
+.icon-digitrial-share:before {
+  content: ";";
+}
+
+.icon-digitrial-sliders:before {
+  content: "<";
+}
+
+.icon-digitrial-sound:before {
+  content: "=";
+}
+
+.icon-digitrial-stephascope:before {
+  content: ">";
+}
+
+.icon-digitrial-stopwatch:before {
+  content: "?";
+}
+
+.icon-digitrial-strand:before {
+  content: "@";
+}
+
+.icon-digitrial-tablet:before {
+  content: "[";
+}
+
+.icon-digitrial-testube-filled:before {
+  content: "]";
+}
+
+.icon-digitrial-testube-outline:before {
+  content: "^";
+}
+
+.icon-digitrial-thermometer:before {
+  content: "_";
+}
+
+.icon-digitrial-tick:before {
+  content: "`";
+}
+
+.icon-digitrial-tv:before {
+  content: "{";
+}
+
+.icon-digitrial-umbrella:before {
+  content: "|";
+}
+
+.icon-digitrial-venn-diagram:before {
+  content: "}";
+}
+
+.icon-digitrial-versions:before {
+  content: "~";
+}
+
+.icon-digitrial-warning:before {
+  content: "\\";
+}
+
+.icon-digitrial-website-dev:before {
+  content: "";
+}
+
+.icon-strategy:before {
+  content: "";
+}
+
+.icon-strategy-1:before {
+  content: "";
+}
+
+.icon-digitrial-arrow-down:before {
+  content: "a";
+}
+
+.icon-digitrial-search:before {
+  content: "/";
+}
+
+@font-face {
+  font-family: volteReg;
+  src: url("../resources/fonts/VolteRounded-Regular.otf");
+}
+@font-face {
+  font-family: volteBold;
+  src: url("../resources/fonts/VolteRounded-Bold.otf");
+}
+@font-face {
+  font-family: volteLight;
+  src: url("../resources/fonts/VolteRounded-Light.otf");
+}
+@font-face {
+  font-family: volteMed;
+  src: url("../resources/fonts/VolteRounded-Medium.otf");
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.bg-grey {
+  background-color: #F6F6F6;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.bg-base {
+  background-color: #34495E;
+}
+
+h1, h2 {
+  color: #56BAB3;
+  font-family: "volteLight";
+}
+
+p {
+  color: #34495E;
+}
+
+ul {
+  list-style: none;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+}
+
+.vert-align {
+  display: flex;
+  align-items: center;
+}
+
+.flex-space-around {
+  display: flex;
+  justify-content: space-around;
+}
+
+.flex-end {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.flex-space-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.button-light {
+  background-color: #56BAB3;
+  border: none;
+  color: white;
+  padding: 9px 18px;
+  font-size: 0.9em;
+}
+
+.button-dark {
+  background-color: #34495E;
+  border: none;
+  color: white;
+  padding: 9px 18px;
+  font-size: 0.9em;
+}
+
+.underline-left:after {
+  content: "";
+  width: 40px;
+  height: 2px;
+  background: #56BAB3;
+  display: block;
+}
+
+.underline-center {
+  position: relative;
+}
+
+.underline-center:after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  margin-left: -20px;
+  width: 40px;
+  height: 2px;
+  background: white;
+  display: block;
+}
+
+.uc-highlight:after {
+  background: #56BAB3;
+}
+
+.main-logo {
+  font-family: "volteBold";
+  color: white;
+  font-size: 30px;
+}
+
+nav {
+  height: 70px;
+  background-color: #34495E;
+  font-family: "volteReg";
+}
+nav a {
+  color: white;
+  text-decoration: none;
+}
+nav ul {
+  float: right;
+  padding-top: 20px;
+}
+nav li {
+  display: inline;
+  padding: 0 6px;
+}
+nav a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  padding-top: 20px;
+  min-width: 200px;
+}
+.dropdown-content a {
+  background-color: #56BAB3;
+  display: block;
+  padding: 5px 8px;
+  text-decoration: none;
+}
+
+.dropdown-content a:hover {
+  background-color: #34495E;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.link-arrow {
+  font-size: 15px;
+}
+
+.link-arrow {
+  font-size: 20px;
+}
+
+.splash-text {
+  padding-top: 50px;
+  width: 475px;
+  padding-bottom: 90px;
+}
+.splash-text h1 {
+  color: #56BAB3;
+  font-size: 55px;
+  font-family: "volteLight";
+}
+.splash-text h2 {
+  color: white;
+  font-size: 1em;
+  font-family: "volteLight";
+}
+
+#splash-pic {
+  width: 50%;
+  overflow: hidden;
+}
+
+#highlights {
+  background-color: #F6F6F6;
+  padding: 30px 0;
+  font-size: 1.2em;
+}
+
+.highlight-card {
+  padding: 30px;
+}
+
+.highlight-text {
+  width: 100px;
+  color: #34495E;
+}
+
+#halfsplashes {
+  background-color: white;
+}
+
+.splash-box {
+  margin-top: 15px;
+  min-height: 250px;
+  width: 49.5%;
+  color: white;
+  text-align: center;
+  padding-top: 80px;
+}
+.splash-box h1, .splash-box p {
+  color: white;
+}
+
+.highlight-splash {
+  background-color: #56BAB3;
+  display: inline-block;
+}
+
+.base-splash {
+  background-color: #34495E;
+  float: right;
+}
+
+#key-features-1 {
+  text-align: center;
+  padding-top: 90px;
+  padding-bottom: 80px;
+}
+#key-features-1 h2 {
+  font-size: 25px;
+}
+
+.key-features-1-content {
+  padding-top: 10px;
+}
+
+.key-features-card {
+  width: 250px;
+}
+
+.feature-icon {
+  width: 80px;
+}
+
+#key-features-2 {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+#key-features-2 h2 {
+  font-family: "volteReg";
+  font-size: 20px;
+}
+#key-features-2 p {
+  font-size: 12px;
+}
+
+.key-features-2-left {
+  margin-right: 120px;
+}
+
+.key-features-list {
+  width: 400px;
+}
+
+.feature-icon2 {
+  width: 60px;
+  margin: 10px;
+}
+
+.ABscreen {
+  margin-top: 20px;
+}
+
+#case-studies-section {
+  padding: 10px;
+}
+
+.case-study {
+  background-size: contain;
+  background-position: center;
+  margin: 0 5px;
+  height: 100%;
+}
+
+.tile-bg-1 {
+  background-image: url("../resources/case-study-dark-3.jpg");
+}
+
+.tile-bg-2 {
+  background-image: url("../resources/case-study-grey-2.jpg");
+}
+
+.tile-bg-3 {
+  background-image: url("../resources/case-study-teal-1.jpg");
+}
+
+/* Centered text */
+.centered {
+  text-align: center;
+  padding: 140px 30px;
+}
+.centered h1, .centered h2, .centered p {
+  color: white;
+}
+.centered h1 {
+  font-size: 1.7em;
+  margin-block-start: 0;
+}
+.centered h2 {
+  font-size: 1.1em;
+  margin: 0;
+}
+.centered p {
+  font-size: 0.9em;
+}
+
+#complete-digital-package {
+  background-color: #F6F6F6;
+  padding: 100px 0;
+}
+#complete-digital-package h1 {
+  font-size: 1.8em;
+}
+#complete-digital-package p {
+  font-size: 0.9em;
+  font-family: "volteReg";
+}
+
+.digital-package-text {
+  width: 400px;
+}
+
+.recruitment-consultant-image {
+  width: 450px;
+}
+
+footer {
+  background-color: #34495E;
+  color: white;
+  font-size: 0.7em;
+  padding: 90px 0;
+  font-family: "volteMed";
+}
+footer li {
+  margin-bottom: 5px;
+}
+
+.footer-column {
+  width: 240px;
+}
+
+.digitrial-logo {
+  width: 100px;
+}
+
+.fab {
+  font-size: 15px;
+  margin: 5px;
+}
+
+.footer-note {
+  margin-right: 150px;
+  color: grey;
+}
+
+.digitrial-logo {
+  margin-right: 56px;
+}
+
+.footer-sig {
+  color: white;
+  margin-top: -1px;
+  font-size: 0.7em;
+}
+
+/*# sourceMappingURL=index.css.map */

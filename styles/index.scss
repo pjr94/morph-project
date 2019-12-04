@@ -1,0 +1,456 @@
+@import "../resources/fontastic.scss";  // ?
+
+$base: #34495E;
+$highlight: #56BAB3;
+$off-white: #F6F6F6;
+
+@font-face {
+  font-family: volteReg;
+  src: url("../resources/fonts/VolteRounded-Regular.otf");
+}
+@font-face {
+  font-family: volteBold;
+  src: url("../resources/fonts/VolteRounded-Bold.otf");
+}
+@font-face {
+  font-family: volteLight;
+  src: url("../resources/fonts/VolteRounded-Light.otf");
+}
+@font-face {
+  font-family: volteMed;
+  src: url("../resources/fonts/VolteRounded-Medium.otf");
+}
+
+
+// Defaults
+body{
+  margin: 0;
+  padding: 0;
+}
+
+// Global Definitions
+.bg-grey{
+  background-color: $off-white;
+}
+.bg-white{
+  background-color: white;
+}
+.bg-base{
+  background-color: $base;
+}
+
+h1, h2{
+  color: $highlight;
+  //  font-family: 'business-video';
+  font-family: 'volteLight';
+}
+
+
+p{
+  color: $base;
+  
+}
+
+ul{
+  list-style: none;
+  
+}
+
+.flex-center{
+  display: flex;
+  justify-content: center;
+}
+
+.vert-align{
+  display: flex;
+  align-items:center;
+}
+
+.flex-space-around{
+  display: flex;
+  justify-content: space-around;
+}
+.flex-end{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.flex-space-between{
+  display: flex;
+  justify-content: space-between;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+// Buttons
+.button-light{
+  background-color: $highlight;
+  border: none;
+  color: white;
+  padding: 9px 18px;
+  font-size: 0.9em;
+}
+
+.button-dark{
+  background-color: $base;
+  border: none;
+  color: white;
+  padding: 9px 18px;
+  font-size: 0.9em;
+}
+
+// Underline effects from here https://stackoverflow.com/questions/24263283/smaller-underline-effect
+.underline-left:after {
+  content: '';
+  width: 40px;
+  height: 2px;
+  background:$highlight;
+  display:block;
+}
+
+.underline-center{
+  position: relative;
+}
+// Default underline
+.underline-center:after {
+  content: '';
+  position:absolute;
+  bottom:-5px;
+  left: 50%;
+  margin-left: -20px;
+  width: 40px;
+  height: 2px;
+  background:white;
+  display:block;
+}
+
+// Override bg color of underline
+.uc-highlight:after{
+  background:$highlight;
+}
+
+// Navigation bar
+.main-logo{
+  font-family: 'volteBold';
+  color: white;
+  font-size: 30px;
+}
+
+nav{
+  //Tier 1 style
+  height: 70px;
+  background-color: $base;
+  font-family: 'volteReg';
+  //padding-bottom: 20px;
+  
+  a{
+    color: white;
+    text-decoration: none;
+  }
+  ul{
+    float: right;
+    padding-top: 20px;
+  }
+  li{
+    display: inline;
+    padding: 0 6px;
+    
+  }
+  a:hover{
+    text-decoration: none;
+    color: white;
+  }
+}
+
+
+
+// Drop down style
+.dropdown-content {
+  //  margin-top: 20px;
+  display: none;
+  position: absolute;
+  //box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  padding-top: 20px;
+  min-width: 200px;
+  
+  // Dropdown links
+  a{
+    background-color: $highlight;
+    display: block;
+    padding: 5px 8px;
+    text-decoration: none;
+  }
+}
+
+// Dropdown background on hover
+.dropdown-content a:hover {
+  background-color: $base;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.link-arrow{
+  font-size: 15px;
+}
+
+.link-arrow{
+  font-size: 20px;
+}
+
+
+
+
+
+// Main Splash section
+.splash-text{
+  padding-top: 50px;
+  width: 475px;
+  padding-bottom: 90px;
+  h1{
+    color: $highlight;
+    font-size: 55px;
+    font-family: 'volteLight';
+    
+  }
+  
+  h2{
+    color: white;
+    font-size: 1em; //em or px?
+    font-family: 'volteLight';
+  }
+  
+}
+
+#splash-pic{
+  width: 50%;
+  overflow: hidden;
+}
+
+
+
+// Highlights Section
+#highlights{
+  background-color: $off-white;
+  padding: 30px 0;
+  font-size: 1.2em;
+}
+
+.highlight-card{
+  padding: 30px;
+}
+
+.highlight-image{
+  
+}
+.highlight-text{
+  width: 100px;
+  color: $base;
+}
+
+
+
+// 50/50 Splash Section
+#halfsplashes{
+  background-color: white;
+}
+
+.splash-box{
+  margin-top: 15px;
+  min-height: 250px;  // min height so it grows on screen resize
+  width: 49.5%;
+  color: white;
+  text-align: center;
+  padding-top: 80px;
+  
+  h1, p{
+    color: white;
+  }
+}
+
+.highlight-splash{
+  background-color: $highlight;
+  display: inline-block;
+}
+
+.base-splash{
+  background-color: $base;
+  float: right;
+}
+
+
+
+// Key Features Section 1
+#key-features-1{
+  text-align: center;
+  padding-top: 90px;
+  padding-bottom: 80px;
+  
+  h2{
+    font-size: 25px;
+  }
+}
+
+.key-features-1-content{
+  
+  padding-top: 10px;
+}
+
+.key-features-card{
+  width: 250px;
+}
+
+.feature-icon{
+  width: 80px;
+}
+
+// Key Features Section 2
+#key-features-2{
+  padding-top: 80px;
+  padding-bottom: 80px;
+  
+  
+  h2{
+    font-family: 'volteReg';
+    font-size: 20px;
+  }
+  p {
+    font-size: 12px;
+  }
+}
+
+.key-features-2-left{
+  margin-right: 120px;
+}
+
+.key-features-list{
+  // flex-wrap: nowrap;
+  width: 400px;
+}
+
+.feature-icon2{
+  width: 60px;
+  margin: 10px;
+}
+
+.ABscreen{
+  margin-top: 20px;
+}
+
+
+
+// Case Studies Section
+#case-studies-section{
+  padding: 10px;
+}
+
+.case-study{
+  
+  background-size: contain;
+  background-position: center;
+  margin: 0 5px;
+  height: 100%
+}
+
+.tile-bg-1{
+  background-image: url("../resources/case-study-dark-3.jpg");
+}
+.tile-bg-2{
+  background-image: url("../resources/case-study-grey-2.jpg");
+}
+.tile-bg-3{
+  background-image: url("../resources/case-study-teal-1.jpg");
+}
+
+/* Centered text */
+.centered {
+  h1, h2, p{
+    color: white;
+  }
+  h1{
+    font-size: 1.7em;
+    margin-block-start: 0;
+  }
+  h2{
+    font-size: 1.1em;
+    margin: 0;
+  }
+  p{
+    font-size: 0.9em;
+  }
+  
+  text-align: center;
+  padding: 140px 30px;
+}
+
+
+
+
+// Digital Package Section
+#complete-digital-package{
+  background-color: $off-white;
+  padding: 100px 0;
+  
+  h1{
+    font-size: 1.8em;
+  }
+  p{
+    font-size: 0.9em;
+    font-family: 'volteReg';
+  }
+}
+
+.digital-package-text{
+  width: 400px;
+}
+
+.recruitment-consultant-image{
+  width: 450px;
+}
+
+
+
+// Footer
+footer{
+  background-color: $base;
+  color: white;
+  font-size: 0.7em;
+  padding: 90px 0;
+  font-family: 'volteMed';
+  
+  li{
+    margin-bottom: 5px;
+  }
+}
+
+.footer-column{
+  width: 240px;
+}
+
+.digitrial-logo{
+  width: 100px;
+}
+
+.fab{
+  font-size: 15px;
+  margin: 5px;
+}
+
+.footer-note{
+  margin-right: 150px;
+  color: grey;
+}
+
+.digitrial-logo{
+  margin-right: 56px;
+}
+
+.footer-sig{
+  color: white;
+  margin-top: -1px;
+  font-size: 0.7em;
+}
